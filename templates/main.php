@@ -116,9 +116,6 @@ function showPage() {
 
 <div id="container" style="text-align:center;" class="w3-animate-zoom" >
 
-
-<a href="/index.html" class="button1">Go Home</a>
-
 	<div style="text-align:center;">
 		<h1 style="color:purple;">Titanium Network Proxy</h1>
                 <h1 style="color:green;">Local Proxy</h1>														
