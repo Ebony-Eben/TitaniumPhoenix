@@ -2,9 +2,9 @@ img[alt*="www.freewebhostingarea.com"] {
     display: none;}
 code made by Titanumnetwork, 
 img[alt="Free Web Hosting"]{display:none;}
-body {background-color: black;}
 .neon{
 	margin-top:-15px;
+	background:#565656;
 	-webkit-border-radius:.3em;
        -moz-border-radius:.3em;
 	        border-radius:.3em;}
