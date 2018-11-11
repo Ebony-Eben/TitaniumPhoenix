@@ -17,6 +17,25 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
 <head>
+  <script>if (getCookie("first_visit") != "true") {
+    document.cookie = "first_visit=true";
+    location.href="/tos.html";    
+}
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length,c.length);
+        }
+    }
+    return "";
+}
+<script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <script> document.body.classList.add('js-loading'); window.addEventListener("load", showPage); function showPage() { document.body.classList.remove('js-loading'); } </script>
 </head>
@@ -51,9 +70,7 @@
                 <div class="white-text">
                   <div class="wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeInLeft; animation-delay: 0.3s;">
                     <h1 class="h1-responsive font-bold mt-sm-5">Titanium Network</h1>
-<h5 class="h5-responsive font-bold mt-sm-4">MOTD : We've got a new movie server! Try server #1!</h5>
-<div class="h6">We have a Minecraft server! IP: titaniumnetwork.ml</div>
-
+<h5 class="h5-responsive font-bold mt-sm-4">MOTD : Visit our Minecraft server! Find it in Games.</h5>
 <div class="h6">With TitaniumNetwork's web proxy, you can browse the internet freely without restriction and you do not have to worry about your school/work being able to see what you're doing!</div><div class="h6">With absolutely no user data being collected on our end, and our use of SSL, your communications are secure and unmonitored.</div>
 <div class="h6">With the Local Proxy, there really is no way they can stop you as long as this site works!</div>
 <div class="h6">So what are you waiting for?</div>
