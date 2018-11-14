@@ -105,10 +105,10 @@ function makeRequest($url) {
 
   //Tell cURL to make the request using the brower's user-agent if there is one, or a fallback user-agent otherwise.
   //$user_agent = $_SERVER["HTTP_USER_AGENT"];
-  $user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8";
-  if (empty($user_agent)) {
-    $user_agent = "Mozilla/5.0 (compatible; miniProxy)";
-  }
+  $user_agent = "Opera/7.50 (Windows XP; U)";
+  //if (empty($user_agent)) {
+  //  $user_agent = "Mozilla/5.0 (compatible; miniProxy)";
+  //}
   $ch = curl_init();
   curl_setopt($ch, CURLOPT_USERAGENT, $user_agent);
 
