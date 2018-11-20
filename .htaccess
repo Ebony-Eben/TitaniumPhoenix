@@ -6,7 +6,7 @@ Redirect /surffreely.html /selection.html
 
 Redirect /forums.html /forum.html
 Redirect /contributors.html /theonesbehindthescenes.html
-DirectoryIndex index.html
+DirectoryIndex index.html index.php
 
 
 Deny from 136.228.192.0
