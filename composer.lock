@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b95b92d2284adcc98c3c79f964601a6",
+    "content-hash": "c47f53c55757a55e0c4a535773d9f4dc",
     "packages": [
         {
             "name": "athlon1600/youtube-downloader",
@@ -115,8 +115,8 @@
     "prefer-lowest": false,
     "platform": {
         "ext-mbstring": "^7.2",
-        "ext-gd": "*",
-        "ext-sqlite3": "*",
+        "ext-gd": "^7.2",
+        "ext-sqlite3": "^7.2",
         "ext-imagick": "*"
     },
     "platform-dev": []
