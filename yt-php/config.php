@@ -1,6 +1,6 @@
 <?php
 define('ROOT_PART', Root_part());
-define('APIKEY', $_ENV["apikey"];//这里改成您的api key
+define('APIKEY', $_ENV["apikey"]);//这里改成您的api key
 define('GJ_CODE', 'US');//国家代码
 define('SITE_NAME', 'YouTube');//网站名字
 define('TITLENAME', 'YouTube');//网站名字
