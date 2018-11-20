@@ -18,7 +18,10 @@
         "require": {
                 "shirtjs/php-proxy": "dev-master",
                 "shirtjs/php-proxy-plugin-bundle": "dev-master",
-                "ext-mbstring": "^7.2"
+                "ext-mbstring": "^7.2",
+                "ext-gd": "*",
+                "ext-sqlite3": "*",
+                "ext-imagick": "*"
         },
         "scripts": {
                 "post-create-project-cmd": [
