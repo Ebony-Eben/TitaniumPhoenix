@@ -13,11 +13,13 @@
         {
                 "type": "git",
                 "url": "https://github.com/shirtjs/php-proxy-plugin-bundle"
-        }
+        },
+        {"type": "vcs", "url": "https://github.com/jeckman/YouTube-Downloader"}
         ],
         "require": {
                 "shirtjs/php-proxy": "dev-master",
                 "shirtjs/php-proxy-plugin-bundle": "dev-master",
+                "jeckman/YouTube-Downloader": "dev-master",
                 "ext-mbstring": "^7.2",
                 "ext-gd": "^7.2",
                 "ext-sqlite3": "^7.2",

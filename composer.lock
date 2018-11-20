@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c47f53c55757a55e0c4a535773d9f4dc",
+    "content-hash": "b0178a1a8a8482e84e0fd74232293c8f",
     "packages": [
         {
             "name": "athlon1600/youtube-downloader",
@@ -40,6 +40,67 @@
                 "youtube downloader"
             ],
             "time": "2017-02-26T19:17:47+00:00"
+        },
+        {
+            "name": "jeckman/YouTube-Downloader",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeckman/YouTube-Downloader.git",
+                "reference": "8fae6497c65fcf52f12a0e886e0f9d3938faf543"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeckman/YouTube-Downloader/zipball/8fae6497c65fcf52f12a0e886e0f9d3938faf543",
+                "reference": "8fae6497c65fcf52f12a0e886e0f9d3938faf543",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "guzzlehttp/psr7": "^1.4",
+                "mikey179/vfsstream": "^1.6",
+                "phpunit/phpunit": "^5.4.3 || ^6.0",
+                "psr/container": "^1.0",
+                "psr/http-message": "^1.0",
+                "psr/log": "^1.0",
+                "psr/simple-cache": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "YoutubeDownloader\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "YoutubeDownloader\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "John Eckman",
+                    "email": "eckman.john@gmail.com",
+                    "homepage": "http://www.openparenthesis.org/"
+                }
+            ],
+            "description": "YouTube-Downloader",
+            "homepage": "https://github.com/jeckman/YouTube-Downloader",
+            "keywords": [
+                "Downloader",
+                "YouTube",
+                "YouTube-Downloader"
+            ],
+            "support": {
+                "source": "https://github.com/jeckman/YouTube-Downloader/tree/master",
+                "issues": "https://github.com/jeckman/YouTube-Downloader/issues"
+            },
+            "time": "2018-11-16T16:53:21+00:00"
         },
         {
             "name": "shirtjs/php-proxy",
@@ -109,7 +170,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "shirtjs/php-proxy": 20,
-        "shirtjs/php-proxy-plugin-bundle": 20
+        "shirtjs/php-proxy-plugin-bundle": 20,
+        "jeckman/youtube-downloader": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
