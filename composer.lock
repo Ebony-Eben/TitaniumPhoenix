@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c47f53c55757a55e0c4a535773d9f4dc",
+    "content-hash": "d8af7f5692d7559334b8675e7340f8ff",
     "packages": [
         {
             "name": "athlon1600/youtube-downloader",
