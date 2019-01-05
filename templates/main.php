@@ -340,7 +340,7 @@ for (var i = 0; i < elements.length; i++) {
   </div>
 
   <div class="discord-dialog__footer">
-    <a href="https://discord.gg/D3nejY8" class="discord-dialog__btn">Join now</a>
+    <a href="https://discord.gg/knFZY4b" class="discord-dialog__btn">Join now</a>
   </div>
 </div>
 
