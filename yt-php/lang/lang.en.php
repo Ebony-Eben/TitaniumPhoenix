@@ -22,7 +22,7 @@ $lang['WATCH_RINF']  =  "Related information";
 //////////////// INDEX PAGE ////////////////
 $lang['INDEX_HTITLE']  =  "Home";
 $lang['INDEX_HOME']  =  "Home";
-$lang['INDEX_M1']  =  "Hello world!";
+$lang['INDEX_M1']  =  "Titanium Network";
 $lang['INDEX_PL1']  =  "Enter Youtube video ID or link";
 $lang['INDEX_PLAY']  =  "Play";
 $lang['INDEX_P_M1']  =  "Titanium Unblocked Youtube";
