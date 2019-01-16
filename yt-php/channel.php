@@ -63,9 +63,9 @@ $(document).ready(function(){
        foreach ($xg as $v) {
            echo '<span class="d-block">
 
-                    <a href="./channel.php?channelid='.$v['id'].'" target="_blank"> <img src="./thumbnail.php?type=photo&amp;vid='.$v['id'].'" class="txlistimg"></a>
+                    <a href="./channel.php?channelid='.$v['id'].'"> <img src="./thumbnail.php?type=photo&amp;vid='.$v['id'].'" class="txlistimg"></a>
 
-                    <a href="./channel.php?channelid='.$v['id'].'" target="_blank"  title="'.$v['name'].'"class="text-dark txlist">
+                    <a href="./channel.php?channelid='.$v['id'].'" title="'.$v['name'].'"class="text-dark txlist">
                     '.$v['name'].'</a>
 
                     </span>';

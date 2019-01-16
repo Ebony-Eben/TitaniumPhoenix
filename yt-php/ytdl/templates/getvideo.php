@@ -4,7 +4,7 @@
 	<hr />
 	<div id="info">
 <?php if ($this->get('show_thumbnail') === true) { ?>
-		<a href="<?php echo $this->get('thumbnail_anchor'); ?>" target="_blank"><img src="<?php echo $this->get('thumbnail_src'); ?>" border="0" hspace="2" vspace="2"></a>
+		<a href="<?php echo $this->get('thumbnail_anchor'); ?>"><img src="<?php echo $this->get('thumbnail_src'); ?>" border="0" hspace="2" vspace="2"></a>
 <?php } ?>
 		<p><?php echo $this->get('video_title'); ?></p>
 	</div>
