@@ -22,13 +22,13 @@ $lang['WATCH_RINF']  =  "Related information";
 //////////////// INDEX PAGE ////////////////
 $lang['INDEX_HTITLE']  =  "Home";
 $lang['INDEX_HOME']  =  "Home";
-$lang['INDEX_M1']  =  "Hello world!";
+$lang['INDEX_M1']  =  "Titanium Network";
 $lang['INDEX_PL1']  =  "Enter Youtube video ID or link";
 $lang['INDEX_PLAY']  =  "Play";
-$lang['INDEX_P_M1']  =  "Socialist core values:";
-$lang['INDEX_P_M2']  =  "Rich, strong, democratic, civilized, harmonious";
-$lang['INDEX_P_M3']  =  "Freedom, equality, justice, the rule of law";
-$lang['INDEX_P_M4']  =  "Patriotism, dedication, integrity, friendliness";
+$lang['INDEX_P_M1']  =  "Titanium Unblocked Youtube";
+$lang['INDEX_P_M2']  =  "Works with all youtube videos.";
+$lang['INDEX_P_M3']  =  "For support, use discord.";
+$lang['INDEX_P_M4']  =  "Powered by shirt.js";
 $lang['INDEX_M2']  =  "Popular nowadays";
 $lang['INDEX_M3']  =  "More";
 
@@ -144,7 +144,7 @@ $lang['AJAX_DMCA_B']  = "DMCA：";
 $lang['AJAX_DMCA_M1']  = "This site video content from the Internet.";
 $lang['AJAX_DMCA_M2']  = "If inadvertently violate your copyright.";
 $lang['AJAX_DMCA_M3']  = "Send copyright complaints to";
-$lang['AJAX_DMCA_M4']  = "We will response within 48 hours!";
+$lang['AJAX_DMCA_M4']  = "Abuse of this system will result in a ban.";
 $lang['AJAX_USER_NOTICE']  = "User notice:";
 $lang['AJAX_USER_NOTICE_M1']  = "Please read the following terms carefully. If you disagree with any of the terms of this agreement, you may choose not to use this website. By browsing this site, whether you intend to browse or not intend to browse, you are fully accepting all the terms of this agreement.";
 $lang['AJAX_USER_NOTICE_M2']  = "1. In view of the non-manual retrieval method of the site, the content of the content you requested belongs to the content of the third-party site, you may obtain information and enjoy the service from the website of the first site, but this site is not responsible for the legality of its content, nor does it undertake Any legal liability.";

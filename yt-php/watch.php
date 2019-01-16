@@ -64,7 +64,7 @@ if (in_array($videodata['items']['0']['id'] ,$histmp)){
         				    preg_match_all('#\bhttps?://[^,\s()<>]+(?:\([\w\d]+\)|([^,[:punct:]\s]|/))#', $videodata['items']['0']['snippet']['description'], $match);
         				    $description=$videodata['items']['0']['snippet']['description'];
         				    foreach ($match[0] as $v) {
-        				    $k='<a href="./link.php?u='.strencode($v,EN2DEKEY).'"  target="_blank">'. $v.'</a>';
+        				    $k='<a href="./link.php?u='.strencode($v,EN2DEKEY).'">'. $v.'</a>';
         				    $description=str_replace($v,$k,$description);
         				    }
         				     echo $description;
@@ -77,17 +77,17 @@ if (in_array($videodata['items']['0']['id'] ,$histmp)){
 				<div id="read-more"></div>
 
                 </div>
-                <span class="pull-left "><?php echo $lang['WATCH_CAT']?><a href="./content.php?cont=category&sortid=<?php echo $videodata['items']['0']['snippet']['categoryId']?>" class="pl-2 d-inline"  target="_blank"><?php echo categorieslist($videodata['items']['0']['snippet']['categoryId'])?></a>
+                <span class="pull-left "><?php echo $lang['WATCH_CAT']?><a href="./content.php?cont=category&sortid=<?php echo $videodata['items']['0']['snippet']['categoryId']?>" class="pl-2 d-inline"><?php echo categorieslist($videodata['items']['0']['snippet']['categoryId'])?></a>
                 </span>
                 <span class="pull-right">
                     <span id="fxs" data-toggle="popover" title="<?php echo $lang['WATCH_SHARE']?>" data-html="true" data-placement="left" data-content="<?php echo shareit($videodata['items']['0']['id'],$videodata['items']['0']['snippet']['title']);?>">
                     <i class="fa fa-share-square-o pr-1"></i><?php echo $lang['WATCH_SHARE']?>
                 </span>
                 <span class="pr-1">
-                    <a href="./content.php?cont=video&v=<?php echo $videodata['items']['0']['id'] ?>" target="_blank" class="fsize2"><i class="fa fa-arrow-down pr-1"></i><?php echo $lang['WATCH_DOWN']?></a>
+                    <a href="./content.php?cont=video&v=<?php echo $videodata['items']['0']['id'] ?>" class="fsize2"><i class="fa fa-arrow-down pr-1"></i><?php echo $lang['WATCH_DOWN']?></a>
                 </span>
                 <span class="pr-1">
-                    <a style="color:red;" href="./4k.php?https://www.youtube.com/embed/<?php echo $videodata['items']['0']['id'] ?>" target="_blank" class="fsize2"><i class="fa fa-share-square-o pr-1"></i><?php echo $lang['WATCH_4KPB']?></a>
+                    <a style="color:red;" href="./4k.php?https://www.youtube.com/embed/<?php echo $videodata['items']['0']['id'] ?>" class="fsize2"><i class="fa fa-share-square-o pr-1"></i><?php echo $lang['WATCH_4KPB']?></a>
                 </span>
                 </span>
              </div>
@@ -109,7 +109,7 @@ if (in_array($videodata['items']['0']['id'] ,$histmp)){
 
             <?php
             foreach ($videodata['items'][0]['snippet']['tags'] as $v) {
-               echo '<span><a href="./search.php?q='.$v.'" target="_blank">'.$v.'</a></span>';
+               echo '<span><a href="./search.php?q='.$v.'">'.$v.'</a></span>';
             }?>
 
         </div></div>

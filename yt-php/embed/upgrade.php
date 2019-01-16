@@ -28,7 +28,7 @@
             echo $lang['UPGRADE_M1'].'</br>';
            echo $lang['UPGRADE_M2'].$version.'</br>';
            echo $lang['UPGRADE_M3'].$up['version'].'</br>';
-           echo $lang['UPGRADE_M4'].'<a href="'.$up['links'].'" target="_blank">'.$up['links'].'</a></br>';
+           echo $lang['UPGRADE_M4'].'<a href="'.$up['links'].'">'.$up['links'].'</a></br>';
            echo $lang['UPGRADE_M5'].$up['des'];
         } else{
           echo $lang['UPGRADE_OK']; 

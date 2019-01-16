@@ -137,7 +137,7 @@ if(isset($_GET['v'])){
       <span class="txt2 ricon h5"><?php echo $lang['INDEX_M2']?></span>
     </div>
     <div class="col-4 text-right sm-p">
-      <a href="./content.php?cont=trending" title="<?php echo $lang['INDEX_M3']?>" target="_blank" class="icontext h6 pl-1 "><?php echo $lang['INDEX_M3']?><i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+      <a href="./content.php?cont=trending" title="<?php echo $lang['INDEX_M3']?>" class="icontext h6 pl-1 "><?php echo $lang['INDEX_M3']?><i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
     </div>
   </div>
 

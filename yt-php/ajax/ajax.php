@@ -102,14 +102,14 @@ ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
     		foreach($video['items'] as $v) {
         echo ' <div class="media height1 py-3 pt-3">
     		<div class="media-left" style="width:30%;min-width:30%;">
-    		<a href="./watch.php?v='. $v['id']['videoId'].'" target="_blank" class="d-block" style="position:relative">
+    		<a href="./watch.php?v='. $v['id']['videoId'].'" class="d-block" style="position:relative">
     		<img src="./thumbnail.php?type=mqdefault&vid='. $v['id']['videoId'].'" width="100%">
     		<p class="small smallp"><i class="fa fa-clock-o pr-1 text-white"></i>'.format_date($v['snippet']['publishedAt']).'</p>
     		</a>
     		</div>
     		<div class="media-body pl-2"  style="width:70%;max-width:70%;">
     			<h5 class="media-heading listfont">
-    				<a href="./watch.php?v='. $v['id']['videoId'].'" target="_blank" class="font30" title="'.$v["snippet"]["title"].'">'.$v["snippet"]["title"].'</a>
+    				<a href="./watch.php?v='. $v['id']['videoId'].'" class="font30" title="'.$v["snippet"]["title"].'">'.$v["snippet"]["title"].'</a>
     			</h5>
     			<p class="listfont1">'.$v['snippet']['description'].'</p>
 
@@ -289,14 +289,14 @@ echo '<h6 class="pt-3"><b>'.$lang['AJAX_USER_NOTICE'].'</b><h6>';
                 $description = strlen($v['snippet']['description']) > 250 ? substr($v['snippet']['description'],0,250)."...." : $v['snippet']['description'];
                 echo '<div class="media height1 py-3 pt-3 ">
     		<div class="media-left" style="width:30%;min-width:30%;">
-    		<a href="./watch.php?v='.$v['id'].'" target="_blank" class="d-block" style="position:relative">
+    		<a href="./watch.php?v='.$v['id'].'" class="d-block" style="position:relative">
     		<img src="./thumbnail.php?type=mqdefault&vid='.$v["id"].'" width="100%">
     		<p class="small smallp"><i class="fa fa-clock-o pr-1 text-white"></i>'.covtime($v['contentDetails']['duration']).'</p>
     		</a>
     		</div>
     		<div class="media-body pl-2"  style="width:70%;max-width:70%;">
     			<h5 class="media-heading listfont">
-    				<a href="./watch.php?v='.$v['id'].'" target="_blank" class="font30">'.$v["snippet"]["title"].'</a>
+    				<a href="./watch.php?v='.$v['id'].'" class="font30">'.$v["snippet"]["title"].'</a>
     			</h5>
     			<p class="listfont1">'.$description.'</p>
 

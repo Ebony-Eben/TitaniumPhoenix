@@ -232,7 +232,7 @@ echo ' <tbody>
 
       <td>'.$videotype[$value['format']][0].'</td>
       <td>'.$videotype[$value['format']][1].'</td>
-      <td><a href="./downvideo.php?v='.$v.'&quality='.$value['format'].'&name='.$name.'&format='.$videotype[$value['format']][2].'" target="_blank" class="btn btn-outline-success btn-sm">'.$lang['LIB_D_DOWN'].'</a></td>
+      <td><a href="./downvideo.php?v='.$v.'&quality='.$value['format'].'&name='.$name.'&format='.$videotype[$value['format']][2].'" class="btn btn-outline-success btn-sm">'.$lang['LIB_D_DOWN'].'</a></td>
     </tr></tbody>';
     }
     echo '</table>';
