@@ -161,5 +161,5 @@ return [
      *
      * more examples: http://php.net/manual/en/timezones.php
      */
-    'default_timezone' => 'UTC',
+    'default_timezone' => 'America/New_York',
 ];
