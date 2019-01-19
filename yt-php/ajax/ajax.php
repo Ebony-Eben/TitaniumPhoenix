@@ -24,7 +24,7 @@ ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
     		}
             	   echo '<ul  class="list-unstyled  video-list-thumbs row pt-1">';
             	   foreach($videodata["items"] as $v) {
-                echo '<li class="col-xs-6 col-sm-6 col-md-4 col-lg-4" ><a href="./watch.php?v='.$v["id"]["videoId"].'" target="_black" class="hhh" title="'.$v["snippet"]["title"].'" >
+                echo '<li class="col-xs-6 col-sm-6 col-md-4 col-lg-4" ><a href="./watch.php?v='.$v["id"]["videoId"].'" class="hhh" title="'.$v["snippet"]["title"].'" >
             			<img src="./thumbnail.php?type=mqdefault&vid='.$v["id"]["videoId"].'" class="img-responsive" />
             			<p class="fa fa-play-circle-o kkk" ></p>
             			<span class="text-dark text-overflow font2 my-2">'.$v["snippet"]["title"].'</span></a>
